@@ -142,7 +142,7 @@
     /* background-color: ; */
     border-radius: 100px;
     font-weight: 600;
-    color: #1f387e;
+    color: red;
     box-shadow: 0 0 0 2px #ffffff;
     cursor: pointer;
     overflow: hidden;
@@ -152,7 +152,7 @@
 .animated-button svg {
     position: absolute;
     width: 24px;
-    fill: #1f387e;
+    fill: red;
     z-index: 9;
     transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
 }
@@ -172,7 +172,7 @@
     transform: translate(-50%, -50%);
     width: 20px;
     height: 20px;
-    background-color: #c5e5e4;
+    background-color: red;
     border-radius: 50%;
     opacity: 0;
     transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
@@ -204,7 +204,7 @@
 }
 
 .animated-button:hover svg {
-    fill: #1f387e;
+    fill: #101010;
 }
 
 .animated-button:active {
@@ -223,7 +223,6 @@
 /* hero button ended */
 
 /* hero links started */
-/* From Uiverse.io by wilsondesouza */
 ul {
     list-style: none;
 }
@@ -356,6 +355,11 @@ ul {
 
 .sec2Cards {
     background-color: #000;
+}
+
+.sec2Cards:hover{
+    transform: scale(1.05);
+    transition: all 0.5s;
 }
 
 .sec2Cards h1 {
